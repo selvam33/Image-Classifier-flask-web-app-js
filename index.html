@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap_min.css">
+  
+</head>
+
+<body style="background-color: #B1BBF8 !important">
+        <div class="container" style="text-align:Center;font-size: 54px;">
+                <div class="row">
+                    <div class="col-xs-12" style="color: #EA3D63 !important;">
+                        <span>Image Classification</span>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <div class="container">
+        <div id="content" class="display">
+
+  <body>
+        <form id="upload-file" method="post" enctype="multipart/form-data" >
+        <input type="file" onchange="previewFile()" id="imageUpload" accept=".png, .jpg, .jpeg" ><br>
+        <img id= "img" src="" height="224" width="224" alt="Image preview..." class="center">
+        </form>
+
+    <div class="image-section" style="display:none;">
+        <button type="button" class="btn btn-primary btn-lg " id="btn-predict" >Predict!</button>
+    </div>
+    <div class="loader" style="display:none;"></div>
+    <div id="result">
+        <span>Result: </span>
+    </div>
+  </body>
+</div>
+</div>
+</body>
+<footer>
+    <script type="text/javascript" src="/static/js/index.js"></script>  
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script> 
+</footer>
+</html>
