@@ -39,7 +39,9 @@ input[type="file"] {
     position:fixed;
     bottom:0;
     left:0;
-    width:100%;
-    padding-left: 799px;
+    width: 519px;
+    height: 450px;
+    margin: auto;
+    padding-left: 519px;
     padding-bottom: 350px;
 }
