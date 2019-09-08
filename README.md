@@ -8,6 +8,13 @@ Use mobilenet for Image classification in Javascript
     Check http://localhost:5000
     Done! 🎉
 
-👇Screenshot:
+# Local Installation
+    pip install flask
+    
+# Run with Python
+Python 2.7 or 3.5+ are supported and tested.
+    
+    $ python app.py
 
-    ![Alt text](/relative/path/to/screen_shot.jpg?raw=true "Optional Title")
+# Play
+Open http://localhost:5002 and have fun. 😃
